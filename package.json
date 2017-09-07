@@ -1,10 +1,10 @@
 {
-	"name": "random-agent-spoofer",
-	"title": "Random Agent Spoofer",
+	"name": "random-agent-spoofer-palemoon",
+	"title": "Random Agent Spoofer For Pale Moon",
 	"id": "jid1-AVgCeF1zoVzMjA@jetpack",
 	"description": "Allows the use of various browser profiles (including useragent ,platform, oscpu, accept headers and other options), which it can randomly switch between after a chosen period of time has expired",
 	"author": "dbyrne",
-	"homepage":"https://github.com/dillbyrne/random-agent-spoofer",
+	"homepage":"https://github.com/AcidBear/random-agent-spoofer-palemoon",
 	"license": "GNU GPL v3",
 	"permissions": { "private-browsing": true },
 	"icon":{"48":"resource://jid1-AVgCeF1zoVzMjA-at-jetpack/data/images/icon.png"},
@@ -29,5 +29,9 @@
 			"type": "bool",
 			"value": true
 		}
-	]
+	],
+  "engines": {
+    "firefox": ">=38.0a1",
+    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1 <=27.*"
+   }
 }
